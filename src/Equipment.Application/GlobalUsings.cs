@@ -1,0 +1,16 @@
+global using System.Collections.ObjectModel;
+global using System.Diagnostics;
+global using System.Runtime.CompilerServices;
+global using Equipment.Application.Abstractions.Behaviors;
+global using Equipment.Application.Abstractions.Data;
+global using Equipment.Application.Abstractions.Messaging;
+global using Equipment.Application.Catalog;
+global using Equipment.Application.Commands;
+global using Equipment.Application.Exceptions;
+global using Equipment.Domain;
+global using Equipment.Domain.Abstractions;
+global using FluentValidation;
+global using FluentValidation.Results;
+global using MediatR;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.Logging;

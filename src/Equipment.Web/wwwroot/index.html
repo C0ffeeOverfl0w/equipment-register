@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Учёт компьютерной техники</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="/vendor/devextreme/css/dx.light.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+<body class="dx-viewport">
+    <main class="workspace">
+        <header class="page-header">
+            <div>
+                <p class="eyebrow">РЕЕСТР ОБОРУДОВАНИЯ</p>
+                <h1>Компьютерная техника</h1>
+                <p class="page-description">Учёт оборудования и его размещения</p>
+            </div>
+            <div class="header-actions">
+                <span id="record-count" class="record-count" aria-live="polite">Загрузка…</span>
+                <div id="refresh-button"></div>
+                <div id="add-button"></div>
+            </div>
+        </header>
+        <div id="load-error" class="load-error" role="alert" hidden></div>
+        <section class="table-panel" aria-label="Список компьютерной техники">
+            <div id="equipment-grid"></div>
+        </section>
+    </main>
+    <script src="/vendor/jquery/jquery.min.js"></script>
+    <script src="/vendor/devextreme/js/dx.all.js"></script>
+    <script src="/vendor/devextreme/js/localization/dx.messages.ru.js"></script>
+    <script type="module" src="/js/app.js"></script>
+</body>
+</html>

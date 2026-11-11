@@ -1,0 +1,15 @@
+global using System.Data;
+global using System.Linq.Expressions;
+global using Equipment.Application.Abstractions.Data;
+global using Equipment.Application.Catalog;
+global using Equipment.Domain;
+global using Equipment.Domain.Abstractions;
+global using Equipment.Infrastructure.Catalog;
+global using Equipment.Infrastructure.Commands;
+global using Equipment.Infrastructure.Persistence;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.Design;
+global using Microsoft.EntityFrameworkCore.Metadata.Builders;
+global using Microsoft.EntityFrameworkCore.Storage;
+global using Microsoft.Extensions.DependencyInjection;
+global using Npgsql;

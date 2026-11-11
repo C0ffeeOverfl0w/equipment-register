@@ -1,0 +1,9 @@
+global using System.Reflection;
+global using System.Xml.Linq;
+global using Equipment.Application.Abstractions.Data;
+global using Equipment.Application.Abstractions.Messaging;
+global using Equipment.Domain;
+global using Equipment.Infrastructure.Persistence;
+global using Equipment.Web.Controllers;
+global using FluentValidation;
+global using MediatR;

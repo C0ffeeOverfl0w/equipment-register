@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../Equipment.Domain/Equipment.Domain.csproj" />
+    <ProjectReference Include="../Equipment.Application/Equipment.Application.csproj" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" />
+  </ItemGroup>
+</Project>

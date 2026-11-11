@@ -1,0 +1,14 @@
+global using Equipment.Application.Abstractions.Behaviors;
+global using Equipment.Application.Abstractions.Data;
+global using Equipment.Application.Catalog;
+global using Equipment.Application.Commands;
+global using Equipment.Application.EquipmentItems.CreateEquipment;
+global using Equipment.Application.EquipmentItems.GetEquipment;
+global using Equipment.Application.EquipmentItems.GetEquipmentById;
+global using Equipment.Application.EquipmentItems.UpdateEquipment;
+global using Equipment.Application.Exceptions;
+global using Equipment.Domain;
+global using Equipment.Domain.Abstractions;
+global using FluentValidation;
+global using FluentValidation.Results;
+global using Microsoft.Extensions.Logging;

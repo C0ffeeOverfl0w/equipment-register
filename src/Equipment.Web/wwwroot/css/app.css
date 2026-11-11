@@ -1,0 +1,160 @@
+:root {
+    color-scheme: light;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #1d2939;
+    background: #f4f6f9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f6f9;
+}
+
+.workspace {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 32px;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 28px;
+}
+
+.eyebrow {
+    margin: 0 0 10px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    color: #61728a;
+}
+
+h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 650;
+    letter-spacing: -0.7px;
+}
+
+.page-description {
+    margin: 10px 0 0;
+    color: #667085;
+    font-size: 14px;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.record-count {
+    white-space: nowrap;
+    color: #667085;
+    font-size: 13px;
+}
+
+.table-panel {
+    padding: 16px;
+    background: #fff;
+    border: 1px solid #e2e7ee;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #1d293908;
+}
+
+.load-error {
+    margin-bottom: 18px;
+    padding: 14px 18px;
+    border: 1px solid #f0b4b4;
+    border-radius: 6px;
+    color: #8d2525;
+    background: #fff2f2;
+    font-size: 14px;
+}
+
+.dx-datagrid {
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.dx-datagrid-headers {
+    color: #475467;
+    font-weight: 600;
+}
+
+.dx-datagrid .dx-row > td {
+    padding: 14px 12px;
+}
+
+.dx-datagrid .dx-datagrid-headers .dx-row > td {
+    background: #f8fafc;
+}
+
+.dx-datagrid-pager {
+    padding-top: 18px;
+}
+
+@media (max-width: 760px) {
+    .workspace {
+        padding: 24px 16px;
+    }
+
+    .page-header {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .header-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .table-panel {
+        padding: 10px;
+    }
+}
+
+[hidden] {
+    display: none !important;
+}
+
+.header-actions {
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.editor-error {
+    margin: 0 0 14px;
+    padding: 12px;
+    color: #8d2525;
+    background: #fff2f2;
+    border: 1px solid #f0b4b4;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+.editor-status {
+    color: #667085;
+}
+
+.editor-reload {
+    margin-bottom: 14px;
+}
+
+.equipment-editor {
+    max-height: calc(90vh - 140px);
+    overflow-y: auto;
+    padding: 2px 3px;
+}

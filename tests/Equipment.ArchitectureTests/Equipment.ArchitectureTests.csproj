@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <IsTestProject>true</IsTestProject>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../src/Equipment.Domain/Equipment.Domain.csproj" />
+    <ProjectReference Include="../../src/Equipment.Application/Equipment.Application.csproj" />
+    <ProjectReference Include="../../src/Equipment.Infrastructure/Equipment.Infrastructure.csproj" />
+    <ProjectReference Include="../../src/Equipment.Web/Equipment.Web.csproj" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" />
+    <PackageReference Include="xunit" />
+    <PackageReference Include="xunit.runner.visualstudio" PrivateAssets="all" />
+    <Using Include="Xunit" />
+    <None Include="../../src/*/*.csproj" Link="ProjectFiles/%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

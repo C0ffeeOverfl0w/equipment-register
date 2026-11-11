@@ -1,0 +1,14 @@
+{
+  "name": "equipment-register-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/copy-vendor.mjs",
+    "check": "node scripts/check-js.mjs"
+  },
+  "dependencies": {
+    "devextreme-dist": "26.1.6",
+    "jquery": "3.7.1"
+  }
+}
